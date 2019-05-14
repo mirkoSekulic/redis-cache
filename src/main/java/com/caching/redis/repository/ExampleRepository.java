@@ -1,6 +1,6 @@
-package com.cashing.redis.repository;
+package com.caching.redis.repository;
 
-import com.cashing.redis.domain.Example;
+import com.caching.redis.domain.Example;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

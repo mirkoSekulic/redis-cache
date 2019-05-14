@@ -1,13 +1,15 @@
-package com.cashing.redis;
+package com.caching.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-public class CashingApplication {
+@EnableCaching
+public class CachingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CashingApplication.class, args);
+		SpringApplication.run(CachingApplication.class, args);
 	}
 
 }

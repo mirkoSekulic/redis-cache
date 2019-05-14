@@ -1,4 +1,4 @@
-package com.cashing.redis.error.exception.entity;
+package com.caching.redis.error.exception.entity;
 
 public class EntityMustHaveIDException extends RuntimeException
 {

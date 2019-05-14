@@ -8,17 +8,16 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.querydsl</groupId>
-    <artifactId>filtering</artifactId>
+    <groupId>com.caching</groupId>
+    <artifactId>redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>filtering</name>
-    <description>Demo project for filtering with queryDSL</description>
+    <name>Redis</name>
+    <description>Demo project for caching with redis</description>
 
     <properties>
         <java.version>1.8</java.version>
         <org.mapstruct.version>1.2.0.Final</org.mapstruct.version>
         <springfox.version>2.9.2</springfox.version>
-        <querydsl.version>4.2.1</querydsl.version>
     </properties>
 
     <dependencies>
@@ -33,6 +32,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

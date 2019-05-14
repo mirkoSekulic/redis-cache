@@ -1,9 +1,9 @@
-package com.cashing.redis.controller;
+package com.caching.redis.controller;
 
-import com.cashing.redis.domain.Example;
-import com.cashing.redis.dto.ExampleDTO;
-import com.cashing.redis.mapper.ExampleMapper;
-import com.cashing.redis.service.ExampleService;
+import com.caching.redis.domain.Example;
+import com.caching.redis.dto.ExampleDTO;
+import com.caching.redis.mapper.ExampleMapper;
+import com.caching.redis.service.ExampleService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.data.domain.Page;

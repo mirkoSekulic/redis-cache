@@ -1,4 +1,4 @@
-package com.cashing.redis.config;
+package com.caching.redis.config;
 
 import com.fasterxml.classmate.TypeResolver;
 import org.slf4j.Logger;
@@ -63,7 +63,7 @@ public class SwaggerConfiguration
                 .directModelSubstitute(LocalTime.class, String.class)
                 .securityContexts(Collections.singletonList(securityContext()))
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.cashing.redis"))
+                .apis(RequestHandlerSelectors.basePackage("com.caching.redis"))
                 .paths(PathSelectors.any()).build();
         watch.stop();
         log.debug("Started Swagger in {} ms", watch.getTotalTimeMillis());

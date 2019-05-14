@@ -1,4 +1,4 @@
-package com.cashing.redis.error.exception.entity;
+package com.caching.redis.error.exception.entity;
 
 /***
  Exception thrown when some entity does not exist. This exception holds entity name and identificator.

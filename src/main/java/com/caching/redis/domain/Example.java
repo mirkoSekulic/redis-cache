@@ -1,4 +1,4 @@
-package com.cashing.redis.domain;
+package com.caching.redis.domain;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.cashing.redis.service;
+package com.caching.redis.service;
 
-import com.cashing.redis.domain.Example;
+import com.caching.redis.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

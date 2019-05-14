@@ -1,4 +1,4 @@
-package com.cashing.redis.dto;
+package com.caching.redis.dto;
 
 import io.swagger.annotations.ApiModel;
 import lombok.EqualsAndHashCode;

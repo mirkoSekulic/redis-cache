@@ -1,7 +1,7 @@
-package com.cashing.redis.error.exception;
+package com.caching.redis.error.exception;
 
 
-import com.cashing.redis.error.exception.entity.EntityDoesNotExistException;
+import com.caching.redis.error.exception.entity.EntityDoesNotExistException;
 
 public class ExampleNotFoundException extends EntityDoesNotExistException
 {

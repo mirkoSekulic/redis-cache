@@ -1,4 +1,4 @@
-package com.cashing.redis.config;
+package com.caching.redis.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

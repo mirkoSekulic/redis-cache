@@ -1,7 +1,7 @@
-package com.cashing.redis.mapper;
+package com.caching.redis.mapper;
 
-import com.cashing.redis.domain.Example;
-import com.cashing.redis.dto.ExampleDTO;
+import com.caching.redis.domain.Example;
+import com.caching.redis.dto.ExampleDTO;
 import org.mapstruct.Mapper;
 import org.springframework.stereotype.Component;
 
